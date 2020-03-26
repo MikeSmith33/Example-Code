@@ -2,7 +2,7 @@ def frequent(arr):
     newdict = {}
     cntr = 0
     element = ''
-    for indval in arr:
+    for indval  in arr:
         newdict[indval] = newdict.get(indval,0) + 1
         if newdict[indval] >= cntr:
             cntr = newdict[indval]
